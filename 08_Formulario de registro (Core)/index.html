@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="Nombre"> Tu nombre :</label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Ingresa tu nombre">
+        </div>
+        <br>
+        <div>
+            <label for="Apellido"> Tu apellido :</label>
+            <input type="text" id="Apellido" name="Apellido" placeholder="Ingresa tu apellido">
+        </div>
+        <br>
+        <div>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Ingresa tu contraseña">
+        </div>
+        <br>
+        <div>
+            <label for="Confirmar_contraseña">Confirma tu Contraseña:</label>
+            <input type="password" id="Confirmar_contraseña" name="Confirmar"
+            placeholder=" Confirmar ">
+        </div>
+        <br>
+        <div>
+            <label for="correo">Correo electrónico:</label>
+            <input type="text" id="correo" name="correo" placeholder="Ingresa tu correo">
+        </div>
+        <br>
+        <div>
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+        </div>
+        <br>
+        <div>
+            <label>Estilo de fuente:</label>
+            <input type="radio" id="Hombre" name="estilo_fuente" value="bold">
+            <label for="Hombre"><strong>Hombre</strong></label>
+            <input type="radio" id="Mujer" name="estilo_fuente" value="normal">
+            <label for="Mujer">Mujer</label>
+            <input type="radio" id="prefiero" name="estilo_fuente" value="normal">
+            <label for="prefiero">Prefiero no decirlo</label>
+        </div>
+        <br>
+        <div>
+            <label for="comentario">Descripcion sobre mi:</label>
+            <br>
+            <textarea id="comentario" name="comentario" rows="5" cols="30"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="intereses">Selecciona tus Intereses:</label>
+            <select id="intereses">
+                <option value="Musica">Musica</option>
+                <option value="Peliculas">Peliculas</option>
+                <option value="Deportes">Deportes</option>
+                <option value="Tecnologia">Tecnologia</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="acepto" name="acepto">
+            <label for="acepto">Al registrarse aceptas los <a
+                href="https://discord-com.translate.goog/terms?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
+                target="_blank">Terminos y condiciones</a> de discord
+            </label>
+        </div>
+        <br>
+            <input type="submit" value="Registrar">
+    </form>
+</body>
+
+</html>
