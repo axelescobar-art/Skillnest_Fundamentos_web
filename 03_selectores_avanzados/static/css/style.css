@@ -1,8 +1,74 @@
 * {
     /* Selector comodin (selecciona todos los elementos html) */
-    outline: 2px dashed crimson;
+    /* outline: 2px dashed crimson; */
     /* Linea externa de 2px */
     margin: 0;
-    /* for
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    padding: 40px;
+}
+
+h1 {
+    color: rebeccapurple;
+}
+
+.green {
+    color: mediumseagreen;
+}
+
+#red {
+    color: tomato;
+}
+
+.quote p {
+    color: darkslategray;
+    font-style: italic;
+}
+
+.quote h4 {
+    color: rgb(84, 196, 196);
+    font-weight: bold;
+}
+
+.header>img {
+    /* solo afecta a los elementos hijos directos (>) */
+    height: 60px;
+    /* Altura de imagen */
+}
+
+#container p {
+    font-size: 16px;
+    background-color: #444;
+    color: white;
+}
+
+#container p.highlight {
+    font-weight: bold;
+    color: gold;
+}
+form{
+    padding: 20px;
+}
+input[type="text"] { /* seleccion de elemtos a traves de su propiedad */
+    border: 2px solid royalblue;
+    padding: 20px;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: none; /* quita los ordes por defecto */
+    padding:5px 20px;
+    cursor: pointer; /* una manito para realizar clicks*/
+}
+.color_nombre{
+    color: green ;
+}
+.color_rbg{
+    color: rgb(52, 241, 252)
+}
+.color_hex:{
+    color: #c3e731
+}
