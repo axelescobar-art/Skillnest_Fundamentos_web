@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    width: 100%;
+    background-color: grey;
+}
+
+.titulado_header {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    outline: solid ipx grey;
+    margin: 0 auto;
+    width: 900px;
+    padding: 20px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
+
+div {
+    width: 80%;
+    height: 200px;
+}
+
+.aceptar {
+    width: 100px;
+    height: 50;
+}
+
+.cajas {
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+    background-color: yellow;
+}
+
+.parrafo1 {
+    font-size: 100px;
+}
+
+.parrafo2 {
+    font-size: 300%;
+}
+.link{
+    font-size: 300;
+}
+.cursiva{
+    color: red;
+    margin-top: 15px;
+    font-style: italic;
+}
