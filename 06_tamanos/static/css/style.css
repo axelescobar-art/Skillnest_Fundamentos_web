@@ -50,11 +50,122 @@ div {
 .parrafo2 {
     font-size: 300%;
 }
-.link{
+
+.link {
     font-size: 300;
 }
-.cursiva{
+
+.cursiva {
     color: red;
     margin-top: 15px;
     font-style: italic;
 }
+
+.example1 {
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+
+.example2 {
+    height: 100px;
+    width: 200px;
+    background-color: green
+}
+
+.example3 {
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.auto {
+    overflow: auto;
+}
+
+/* fondos y colores */
+.banner {
+    height: 200px;
+    width: 100px;
+    background-color: red url("/06_tamanos/static/images/capsule_616x353.jpg") no-repeat fixed center center;
+    background-size: 120%;
+}
+/*🟥bordes y estilos*/
+
+.cancelar{
+    border: 2px dotted green;
+    display: inline-block;
+    padding: 15px;
+}
+
+.articulo{
+    border: 2px solid rgb(206, 175, 175);
+    height: 10px;
+    width: 100px;
+    display: inline-block;
+}
+
+/*🟢bordes recomendados*/
+
+boton_recomendado{
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+caja_redondeada{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 10px 16px;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+}
+
+.cajitas{
+    width: 100px;
+    height: 40px;
+    outline: solid 1px rgb(0, 0, 0);
+}
+
+.box1{
+    background-color: rgb(172, 44, 44);
+    padding: 10px;
+}
+
+.box2{
+    background-color: yellow;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    /*padding: 0px 5px 0px 5px */
+    /*padding: 0px 5px*/
+}
+
+.box3{
+    background-color: rgb(18, 150, 84);
+    margin: 10px;
+}
+
+.box4{
+    background-color: orange;
+    margin: 0px 20px;
+    padding: 5px 0px;
+}
+
+.box5{
+    background-color: rgb(169, 44, 194);
+    margin: 0px 20px;
+    padding: 5px 0px;
+}
+
